@@ -1,12 +1,15 @@
 import os
+os.system('pip install random')
 os.system('pip install websocket')
-os.system('pip install requests')
 os.system('pip install websocket-client')
+os.system('pip install requests')
 import websocket
 import ssl
+import os
 import json
 import gzip
 import requests
+from time import sleep
 import random
 import concurrent.futures
 
